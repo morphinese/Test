@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+.wrapper {
+    max-width: 800px;
+    display: flex;
+    margin: 150px auto 0px auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.text {
+    font-size: 24px;
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+.variants {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio__btn {
+    margin-right: 10px;
+}
+.btn {
+}
+.hidden {
+    display: none;
+}

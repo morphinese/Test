@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Test</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="title">У якому році народився Ньютон?</h1>
+            <p class="text">За правильну відповідь отримуйте 1 печиво</p>
+            <div class="variants">
+                <div class="input__wrapper">
+                    <input
+                        class="radio__btn"
+                        type="radio"
+                        name="year"
+                        id="y1"
+                    />
+                    1643
+                </div>
+                <div class="input__wrapper">
+                    <input
+                        class="radio__btn"
+                        type="radio"
+                        name="year"
+                        id="y2"
+                    />
+                    1645
+                </div>
+                <div class="input__wrapper">
+                    <input
+                        class="radio__btn"
+                        type="radio"
+                        name="year"
+                        id="y3"
+                    />
+                    1543
+                </div>
+                <div class="input__wrapper">
+                    <input
+                        class="radio__btn"
+                        type="radio"
+                        name="year"
+                        id="y4"
+                    />
+                    1478
+                </div>
+            </div>
+            <button type="btn" id="btn" class="btn">Відповісти</button>
+            <p class="right_var hidden" id="right_var">
+                <b>Правильна відповідь.</b> Відповідь вірна, тримай печиво
+            </p>
+            <div class="wrong_var hidden" id="wrong_var">
+                <p class="wrong" id="wrong"><b>Неправильна відповідь</b></p>
+                <button id="btn1">Подивитись відповідь</button>
+            </div>
+
+            <p id="answer" class="hidden">
+                <b>Правильна відповідь:</b>Сер Ісаа́к Нью́то́н (4 січня 1643,
+                Вулсторп, Лінкольншир, Королівство Англія — 31 березня 1727,
+                Лондон, Великий Лондон, Англія, Королівство Великої Британії) —
+                англійський науковець, який заклав основи сучасного
+                природознавства, творець класичної фізики та один із засновників
+                числення нескінченно малих.
+            </p>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
